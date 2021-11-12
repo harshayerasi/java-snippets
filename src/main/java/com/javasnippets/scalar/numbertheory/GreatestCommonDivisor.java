@@ -1,4 +1,4 @@
-package com.scalar.academy.numbertheory;
+package com.javasnippets.scalar.numbertheory;
 
 /**
  * @author harsha
