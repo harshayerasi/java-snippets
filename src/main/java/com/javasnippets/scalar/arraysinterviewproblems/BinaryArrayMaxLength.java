@@ -20,6 +20,8 @@ public class BinaryArrayMaxLength {
         System.out.println(solve1(new int[]{1, 1, 1, 0, 1, 1, 0}));
         System.out.println(solve1(new int[]{1, 1, 1, 0, 1, 1, 0, 1}));
 
+        // 010100110101
+        System.out.println(solve1(new int[]{0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1}));
     }
 
     /**
