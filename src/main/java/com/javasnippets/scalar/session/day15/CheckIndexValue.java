@@ -37,10 +37,18 @@ public class CheckIndexValue {
          */
         System.out.println(N & (1 << i));
         System.out.println(N & (1 << i - 1));
+
+        /**
+         * Set ith bit of N
+         *
+         * If 2nd bit of 10 is set then the result will be 14
+         *
+         * In order to set ith bit left shift 1 by i times and perform bitwise or to activate it in N
+         */
+        System.out.println(N | (1 << i - 1));
     }
 
     /**
-     *
      * @param N the number
      * @param i the index of @param N
      * @return true if ith bit of N is set (1)
@@ -51,7 +59,6 @@ public class CheckIndexValue {
     }
 
     /**
-     *
      * @param N the number
      * @param i the index of @param N
      * @return true if ith bit of N is set (1)
